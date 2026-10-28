@@ -7,7 +7,7 @@ if (!A_IsAdmin) {
         MsgBox("Run as administrator.")
     }
     ExitApp()
-}
+)
 
 AppDir          := A_AppData "\MCLoven"
 UserFlagsFile   := AppDir "\user_flags.json"
